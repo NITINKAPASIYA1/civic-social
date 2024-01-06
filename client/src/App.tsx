@@ -10,7 +10,7 @@ const App = () => {
             <Routes>
                 {/* public Routes */}
                 <Route path='/sign-up' element={<SignUp/>}></Route>
-                <Route path='/sign-in' element={<SignIn/>}></Route>
+                <Route path='/login-in' element={<SignIn/>}></Route>
 
 
                 {/* private Routes */}
