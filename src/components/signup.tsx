@@ -8,9 +8,9 @@ const signup = () => {
     {/* section1 half */}
     <div className='h-[100vh] w-[50%] bg-[#F8F9FA]'>
 
-        <div className='flex gap-x-2 ml-5 mt-3'>
-            <img  src='../../assets/logo.png' alt='logo'></img>
-            <h2 className='text-2xl mt-4 font-bold'>Civic</h2>
+        <div className='flex  mt-3'>
+            <img  src='../../assets/logo.png' alt='logo' className="h-[45px] mt-2 ml-2"></img>
+            <h2 className='text-2xl mt-4 font-semi'>Civic</h2>
         </div>
 
         <div className='flex flex-col  justify-center items-center gap-y-4 mt-8'>
@@ -27,8 +27,12 @@ const signup = () => {
             <path d="M16 8C15.9998 6.47121 15.5615 4.9745 14.737 3.68706C13.9126 2.39963 12.7365 1.37537 11.3481 0.735559C9.95962 0.095746 8.4169 -0.132832 6.90257 0.076886C5.38823 0.286604 3.9657 0.925835 2.80337 1.9189C1.64104 2.91197 0.787596 4.21729 0.344069 5.68032C-0.099457 7.14336 -0.114491 8.70285 0.300748 10.1742C0.715987 11.6455 1.54411 12.967 2.68708 13.9823C3.83004 14.9976 5.23999 15.6641 6.75 15.903L6.75 10.3125L4.719 10.3125L4.719 8L6.75 8L6.75 6.2375C6.75 4.2325 7.9445 3.125 9.7715 3.125C10.3715 3.13332 10.9701 3.18546 11.5625 3.281V5.25H10.5535C10.3816 5.22716 10.2067 5.24331 10.0418 5.29725C9.87698 5.35118 9.72638 5.44152 9.60119 5.56158C9.476 5.68163 9.37943 5.82831 9.31864 5.99076C9.25784 6.15321 9.23439 6.32725 9.25 6.5V8L11.469 8L11.114 10.3125H9.25L9.25 15.903C11.1319 15.6053 12.8458 14.6457 14.0832 13.1969C15.3206 11.7481 16.0003 9.90529 16 8Z" fill="#455EA9"/>
             </svg>
             <a href="">Sign up with facebook</a></div>
-
+ 
+            <div className="flex space-x-2">
+            <div className="h-[1px] w-[84px] bg-[#DEE1E6] mt-3.5"/>
             <p className="font-normal text-[14px] mt-1 text-[#9095A1]">OR SIGN UP USING YOUR EMAIL</p>
+            <div className="h-[1px] w-[84px] bg-[#DEE1E6] mt-3.5"/>
+            </div>
 
             <label className="flex flex-col mt-4">Email Address <input type="email" placeholder="example.email@gmail.com" className="w-[415px] h-[43px] rounded-md py-[26px]text-1rem px-[10px] bg-[#F3F4F6] text-[#9095A1]"></input></label>
             
