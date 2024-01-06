@@ -13,7 +13,15 @@ const signIn = () => {
                   <h2 className='text-2xl mt-4 font-semi'>Civic</h2>
           </div>
 
-          
+          <div className="flex flex-col justify-center items-center">
+
+            <h1 className="font-bold text-[28px]">Sign in</h1>
+
+            <label className="flex flex-col mt-4">Email<input type="email" placeholder="Enter your email" className="w-[415px] h-[43px] rounded-md py-[26px]text-1rem px-[10px] bg-[#F3F4F6] text-[#9095A1]"></input></label>
+
+            <label className="flex flex-col mt-4">Password<input type="password" placeholder="Enter your password" className="w-[415px] h-[43px] rounded-md py-[26px]text-1rem px-[10px] bg-[#F3F4F6] text-[#9095A1]"></input></label>
+
+          </div>
       
 
       
