@@ -42,7 +42,7 @@ const signup = () => {
 
             <div className="flex mt-40">
               <p className="text-[#6F7787]">Have an account?</p>
-              <a href="" className="text-[#27782B]">Log in</a>
+              <a href="/login-in" className="text-[#27782B]">Log in</a>
 
             </div>
         </div>
