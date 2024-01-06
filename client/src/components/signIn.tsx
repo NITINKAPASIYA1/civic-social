@@ -1,4 +1,6 @@
 import React from "react"
+import { HiOutlineMail } from "react-icons/hi";
+import { TbPasswordFingerprint } from "react-icons/tb";
 
 const signIn = () => {
   return (
@@ -17,9 +19,21 @@ const signIn = () => {
 
             <h1 className="font-bold text-[28px]">Sign in</h1>
 
-            <label className="flex flex-col mt-4">Email<input type="email" placeholder="Enter your email" className="w-[415px] h-[43px] rounded-md py-[26px]text-1rem px-[10px] bg-[#F3F4F6] text-[#9095A1]"></input></label>
+            <div className="relative">
 
-            <label className="flex flex-col mt-4">Password<input type="password" placeholder="Enter your password" className="w-[415px] h-[43px] rounded-md py-[26px]text-1rem px-[10px] bg-[#F3F4F6] text-[#9095A1]"></input></label>
+            <label className="flex flex-col mt-4">Email<input type="email" placeholder="Enter your email" className="w-[415px] h-[43px] rounded-md py-[26px] text-1rem px-[10px] placeholder: pl-9 bg-[#F3F4F6] text-[#9095A1]"></input></label>
+            <HiOutlineMail className="absolute translate-y-[-33px] ml-3"/>
+
+            </div>
+
+            <div className="relative">
+
+            <label className="flex flex-col mt-4">Password<input type="password" placeholder="Enter your email" className="w-[415px] h-[43px] rounded-md py-[26px] text-1rem px-[10px] placeholder: pl-9 bg-[#F3F4F6] text-[#9095A1]"></input></label>
+            <TbPasswordFingerprint className="absolute translate-y-[-33px] ml-3"/>
+
+            </div>
+
+            
 
           </div>
       
