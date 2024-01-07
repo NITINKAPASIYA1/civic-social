@@ -1,6 +1,7 @@
 import React from 'react'
 import { leftbarlinks } from '../../constants'
-import { Link } from 'react-router-dom'
+import { INavLink } from '../../types'
+import {  NavLink } from 'react-router-dom'
 
 
 const leftbar = () => {
@@ -23,12 +24,18 @@ const leftbar = () => {
 
         </div>
 
-        <ul className='w-[368px] mx-[16px]'>
+        <ul className='w-[368px] mx-[16px] flex flex-col space-y-6 font-light pl-2 text-[#565D6D]'>
 
             {
               leftbarlinks.map( (Link:INavLink) => {
                 return (
-                  <NavLink
+                  <li className='pl-2'> 
+                    <NavLink key={Link.label} to={Link.route} className="flex gap-2">
+                      <img src={Link.imgURL}></img>
+                      {Link.label}
+                    </NavLink>
+
+                  </li>
                 )
               })
             }
