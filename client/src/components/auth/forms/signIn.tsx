@@ -1,7 +1,7 @@
 import React from "react"
 import { HiOutlineMail } from "react-icons/hi";
 import { TbPasswordFingerprint } from "react-icons/tb";
-import ButtonComponent from "./ui/ButtonComponent";
+import ButtonComponent from "../../ui/ButtonComponent";
 
 const signIn = () => {
   return (

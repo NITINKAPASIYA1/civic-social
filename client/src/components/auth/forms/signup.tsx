@@ -1,5 +1,5 @@
 import React from "react"
-import ButtonComponent from "./ui/ButtonComponent"
+import ButtonComponent from "../../ui/ButtonComponent"
 
 
 

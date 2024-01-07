@@ -1,6 +1,7 @@
 import React from 'react';
-import SignIn from './components/signIn';
-import SignUp from './components/signup';
+import SignUp from './components/auth/forms/signup';
+import SignIn from './components/auth/forms/signIn';
+import Rootarea from './root/Rootarea';
 import './index.css';
 import { Route, Routes} from 'react-router-dom'
 
@@ -14,6 +15,8 @@ const App = () => {
 
 
                 {/* private Routes */}
+                <Route path="/home" element={<Rootarea/>}></Route>
+
 
             </Routes>
         </main>
