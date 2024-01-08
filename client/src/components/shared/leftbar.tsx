@@ -39,9 +39,13 @@ const leftbar = () => {
                 )
               })
             }
-
-
         </ul>
+
+
+        <div className='flex mt-[340px] ml-[20px]'>
+          <img src='../../assets/logout.svg'></img>
+          <a href='/login-in' className='mt-[9px]'>Logout</a>
+        </div>
 
         
     </div>

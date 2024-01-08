@@ -1,7 +1,16 @@
 import React from "react"
 import { HiOutlineMail } from "react-icons/hi";
 import { TbPasswordFingerprint } from "react-icons/tb";
-import ButtonComponent from "../../ui/ButtonComponent";
+import button from "../../../../@/components/"
+import { Link } from "react-router-dom";
+import * as z from "zod"
+ 
+const formSchema = z.object({
+  username: z.string().min(2).max(50),
+})  
+
+
+
 
 const signIn = () => {
   return (
@@ -50,7 +59,7 @@ const signIn = () => {
 
             <div className="flex mt-3 space-x-1">
               <p className="font-light">Don't have an account?</p>
-              <a href="/sign-up" className="text-[#309535] font-light">Sign up</a>
+              <Link to="/sign-up" className="text-[#309535] font-light">Sign up</Link>
             </div>
 
             <div className="flex space-x-2 mt-6">
