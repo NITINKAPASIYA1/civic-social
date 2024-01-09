@@ -1,5 +1,4 @@
 import React from "react"
-import ButtonComponent from "../../ui/ButtonComponent"
 
 
 
@@ -15,7 +14,7 @@ const signup = () => {
             <h2 className='text-2xl mt-4 font-semi'>Civic</h2>
         </div>
 
-        <div className='flex flex-col  justify-center items-center gap-y-4 mt-20'>
+        <div className='flex flex-col mx-auto justify-center items-center gap-y-4 mt-20'>
             <h1 className='font-bold text-3xl'>Create an account</h1>
             <p className='font-light text-sm text-center'>By creating an account,you agree to this app's<br></br> 
             <span className="text-[#27782B]">Terms</span> and <span className="text-[#27782B]">Privacy Policy.</span></p>
