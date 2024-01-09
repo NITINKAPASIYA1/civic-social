@@ -11,7 +11,7 @@ const signup = () => {
 
         <div className='flex  mt-3'>
             <img  src='../../assets/logo.png' alt='logo' className="h-[45px] mt-2 ml-2"></img>
-            <h2 className='text-2xl mt-4 font-semi'>Civic</h2>
+            <h2 className='text-2xl  *:first-letter:mt-4 font-semi'>Civic</h2>
         </div>
 
         <div className='flex flex-col  justify-center items-center gap-y-4 mt-20'>
