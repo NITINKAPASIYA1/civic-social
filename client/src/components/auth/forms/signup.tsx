@@ -7,14 +7,14 @@ const signup = () => {
     <div className='h-[100%] w-[100%] flex font-lexend'>
 
     {/* section1 half */}
-    <div className='h-[100vh] w-[50%] bg-[#F8F9FA]'>
+    <div className='h-[100sdfvh] w-[50%] bg-[#F8F9FA]'>
 
         <div className='flex  mt-3'>
             <img  src='../../assets/logo.png' alt='logo' className="h-[45px] mt-2 ml-2"></img>
             <h2 className='text-2xl mt-4 font-semi'>Civic</h2>
         </div>
 
-        <div className='flex flex-col mx-auto justify-center items-center gap-y-4 mt-20'>
+        <div className='flex flex-col  justify-center items-center gap-y-4 mt-20'>
             <h1 className='font-bold text-3xl'>Create an account</h1>
             <p className='font-light text-sm text-center'>By creating an account,you agree to this app's<br></br> 
             <span className="text-[#27782B]">Terms</span> and <span className="text-[#27782B]">Privacy Policy.</span></p>
