@@ -7,7 +7,7 @@ const signup = () => {
     <div className='h-[100%] w-[100%] flex font-lexend'>
 
     {/* section1 half */}
-    <div className='h-[100sdfvh] w-[50%] bg-[#F8F9FA]'>
+    <div className='h-[100vh] w-[50%] hover:first-letter: bg-[#F8F9FA]'>
 
         <div className='flex  mt-3'>
             <img  src='../../assets/logo.png' alt='logo' className="h-[45px] mt-2 ml-2"></img>
