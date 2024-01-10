@@ -4,10 +4,10 @@ import React from "react"
 
 const signup = () => {
   return (
-    <div className='h-[100%] w-[100%]  flex font-lexend text-2xl'>
+    <div className='h-[100%] w-[100%]  flex font-lexend'>
 
     {/* section1 half */}
-    <div className='h-[100vh] w-[50%] hover:first-letter: bg-[#F8F9FA]'>
+    <div className='h-[100vh] w-[60%] hover:first-letter: bg-[#F8F9FA]'>
 
         <div className='flex  mt-3'>
             <img  src='../../assets/logo.png' alt='logo' className="h-[45px] mt-2 ml-2"></img>
