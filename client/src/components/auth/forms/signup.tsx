@@ -4,7 +4,7 @@ import React from "react"
 
 const signup = () => {
   return (
-    <div className='h-[100%] w-[100%] justify-normal flex font-lexend'>
+    <div className='h-[100%] w-[100%]  flex font-lexend text-2xl'>
 
     {/* section1 half */}
     <div className='h-[100vh] w-[50%] hover:first-letter: bg-[#F8F9FA]'>
