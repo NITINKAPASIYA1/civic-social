@@ -37,7 +37,7 @@ const signup = () => {
 
             <label className="flex flex-col mt-4">Email Address <input type="email" placeholder="example.email@gmail.com" className="w-[415px] h-[43px] rounded-md py-[26px]text-1rem px-[10px] bg-[#F3F4F6] text-[#9095A1]"></input></label>
             
-            <ButtonComponent buttonText={'Sign up'}  onClick={() => {}}></ButtonComponent>
+
 
             <div className="flex mt-40">
               <p className="text-[#6F7787]">Have an account?</p>
