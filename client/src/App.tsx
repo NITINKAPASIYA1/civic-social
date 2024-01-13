@@ -14,7 +14,11 @@ const App = () => {
         <Route path='/login-in' element={<SignIn />}></Route>
 
         {/* private Routes */}
-        <Route path='/home' element={<Rootarea />}></Route>
+        <Route element={<Rootarea />}>
+    
+
+
+        </Route>
       </Routes>
     </main>
   )
